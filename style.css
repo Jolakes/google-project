@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#hero .hero {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 50px;
+    margin-top: 12em;
+}
+
+img {
+    width: 100%;
+}
+
+.input-field {
+    border: 1px solid grey;
+    height: 50px;
+    width: 400px;
+    display: flex;
+    border-radius: 50px;
+}
+
+input {
+    width: 100%;
+    border: none;
+    outline: none;
+}
+
+.icon img {
+    font-size: 2px;
+}
+
+.icon {
+    margin: 10px 20px;
+}
